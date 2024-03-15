@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @keyframes zoom {
+        from {
+          transform: scale(1);
+        }
+        to {
+          transform: scale(4);
+        }
+      }
+
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: black;
+      }
+
+      div {
+        width: 30%;
+        height: 30%;
+        box-shadow: rgb(255, 49, 49) 0px 22px 70px 4px;
+        animation: zoom 1.5s infinite;
+      }
+    </style>
+  </head>
+  <body>
+    <div></div>
+  </body>
+</html>
